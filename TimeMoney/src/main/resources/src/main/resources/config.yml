@@ -1,0 +1,26 @@
+reward:
+
+  amount: 100
+
+  interval-minutes: 10
+
+
+settings:
+
+  disable-afk-reward: true
+
+
+messages:
+
+  paid: "&aOtrzymałeś &e%money%$ &aza czas gry!"
+
+  reload: "&aConfig przeładowany!"
+
+
+multipliers:
+
+  vip:
+
+    permission: "timemoney.multiplier.vip"
+
+    multiplier: 2.0
