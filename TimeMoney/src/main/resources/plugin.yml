@@ -1,0 +1,17 @@
+name: TimeMoney
+version: 1.0
+main: pl.timemoney.TimeMoney
+api-version: "1.21"
+
+depend:
+  - Vault
+
+commands:
+  timemoney:
+    description: TimeMoney admin command
+    usage: /timemoney reload
+
+permissions:
+
+  timemoney.admin:
+    default: op
